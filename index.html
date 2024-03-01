@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced learning system</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/385e8c8a06.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="design.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <style>
+    main {
+      margin-left: 239px !important;
+      margin-right: 151px !important;
+    }
+
+    .caladea {
+      font-family: "Caladea", serif;
+      font-style: normal;
+    }
+
+    .dm-sans {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+    }
+
+    .inter {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body class="mx-auto min-h-screen">
+
+  <!-- Banner section -->
+  <main class="">
+    <section class="text-white">
+      <div class="navbar ">
+        <div class="navbar-start">
+
+          <img src="edu.png" alt="" srcset="" class="mr-3">
+          <a class="btn btn-ghost text-[3rem] text-[#D9ECFF] font-bold">Advanced<br> Learning System</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+
+
+            <li><a>About</a></li>
+            <li><a>Course</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact </a></li>
+            <li><a>Book</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-8">
+          <a class="btn login-btn rounded-3xl bg-transparent text-white">Login</a>
+          <a class="btn login-btn rounded-3xl bg-[#7F56D9] text-white">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="flex justify-between mt-24">
+      <div class="">
+        <h1 class="text-white caladea text-[6.25rem] font-bold"><span class="text-[#BEA0FF]">Best courses</span>
+          are<br>waiting to enrich<br>
+          your skill</h1>
+
+        <img class="absolute" src="plus.png" alt="" srcset="">
+
+
+        <p class="text-[#B0B0D1] inter text-[1.5625rem] font-medium mt-32">Provides you with the latest online learning
+          system and material<br>that help your knowledge growing.</p>
+
+        <!-- <label class="input input-bordered flex items-center gap-2 mt-44">
+          <input type="text" class="grow rounded-full" placeholder="Want to learn?" />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
+            <path fill-rule="evenodd"
+              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+              clip-rule="evenodd" />
+          </svg>
+        </label> -->
+        <div class="box mt-48">
+
+          <i class="fa fa-search" aria-hidden="true"></i>
+
+          <input type="text" name="" placeholder="Want to learn?" class="ml-3 border-transparent">
+          <button class="rounded-full explore-btn text-white">Explore</button>
+
+
+        </div>
+      </div>
+      <div>
+        <img src="cartoon.png" alt="" srcset="">
+      </div>
+
+    </section>
+
+    <!-- popular courses -->
+
+    <section class="mt-80">
+      <!--navbar title of popular course  -->
+      <div class="flex justify-between items-center space-x-52">
+        <div>
+          <h1 class="caladea font-bold text-[3.3rem] text-white">Popular <span class="text-[#BEA0FF]">Courses</span>
+          </h1>
+        </div>
+        <div>
+          <div class="box2 w-[899px]">
+
+            <button class="rounded-full explore-btn text-white mx-7 ml-3">Design</button>
+            <button class="rounded-full explore-btn text-white bg-transparent mx-7">Development</button>
+            <button class="rounded-full explore-btn text-white bg-transparent mx-7">Business</button>
+            <button class="rounded-full explore-btn text-white bg-transparent mx-7">Data Science</button>
+            <button class="rounded-full explore-btn text-white bg-transparent">Marketing</button>
+
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="grid grid-cols-3 gap-10 mt-28">
+        <!-- card 1 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card1.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card2.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card4.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card5.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="card w-[500px] bg-[#381D74] shadow-xl text-[#D9ECFF]">
+          <figure><img src="card6.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="inter text-[1rem] font-medium">
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-circle-play" style="color: #B197FC;"></i>
+                  10x Lesson
+                </div>
+                <div>
+                  <button class="box3">Design</button>
+                </div>
+              </div>
+
+
+
+            </h2>
+            <h1 class="text-[1.875rem] font-bold">Python for Financial Analysis Next
+              and Algorithmic Trading</h1>
+            <hr class="hr1">
+            <div class="flex justify-between">
+
+              <div class="flex items-center gap-5">
+                <img src="ellipse-12020.png" alt="" srcset="">
+                <div>
+                  <h1>Zidni</h1>
+                  <p>Python Developer</p>
+                </div>
+
+              </div>
+              <div class="flex items-center gap-8">
+
+                <div class="hr2"></div>
+                <h1>50+ Student</h1>
+              </div>
+
+            </div>
+            <hr class="hr1">
+
+            <div class="flex justify-between mt-6">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div>
+                <button class="btn-enrol">Enroll Now</button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="flex items-center justify-center mt-20">
+        <button class="e-btn">Explore all Courses</button>
+      </div>
+
+    </section>
+    <!-- Most popular category -->
+
+    <section class="mt-36">
+      <h1 class="text-[#BEA0FF] caladea text-[4.375rem] font-bold text-center"><span class="text-white">Most
+          Popular</span> Category </h1>
+
+
+      <div class="mt-32 grid grid-cols-4 gap-x-12 gap-y-12">
+        <!-- 1 -->
+        <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="Pen.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Design</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+
+         <!-- 2 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="development.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Development</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 3 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="professsional.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Professional Dev.</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 4 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="photography.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Photography</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 5 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="Database.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Data Science</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 6 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="buisness.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Business</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 7 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="marketing.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Marketing</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+         <!-- 8 -->
+         <div class="popular-card flex justify-between items-center">
+
+          <div class="flex items-center gap-6">
+            <img class="ml-7" src="Music.png" alt="" srcset="">
+            <h1 class="text-white inter text-[1.375rem] font-medium">Music</h1>
+          </div>
+          <div class="arrow-box items-center text-center mr-4 relative">
+            <img src="ArrowUpRight.png" alt="" srcset="" class="absolute left-2 top-2">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
