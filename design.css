@@ -189,3 +189,15 @@ body {
   border-radius: 1000px;
   background: linear-gradient(180deg, #A582F7 0%, #7747EC 100%);
 }
+
+.btn-instructor {
+  width: 380px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  background: #FF5156;
+}
+
+footer {
+  background: linear-gradient(171deg, rgba(85, 59, 145, 0.30) 6.62%, rgba(85, 59, 145, 0.00) 134.88%);
+}
