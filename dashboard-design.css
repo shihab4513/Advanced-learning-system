@@ -1,0 +1,56 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 16px;
+  position: relative;
+  background-color: var(--primary-color-gray-10);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #cccccccc;
+}
+
+
+.input img,
+.input input {
+  margin-right: auto;
+}
+
+.btn-join {
+  border-radius: 40px;
+  background: var(--color-gray-100, #202020);
+  display: inline-flex;
+  height: 36px;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.play-round {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(--color-gray-10, #FFF);
+}
+
+.input img.vuesax-linear-search,
+.input input {
+  margin-right: auto;
+}
+
