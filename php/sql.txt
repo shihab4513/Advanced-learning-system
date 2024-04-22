@@ -1,0 +1,12 @@
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(50),
+    surname VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    passsword VARCHAR(255),
+    dob DATE,
+    university VARCHAR(100),
+    semester VARCHAR(50),
+    gender ENUM('Male', 'Female', 'Other'),
+    terms TINYINT(1)
+);
